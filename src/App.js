@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { useAuthState } from "react-firebase-hooks/auth";
+import { auth } from "./firebase.js";
+import Login from "./Components/login";
+import Game from "./Components/game";
+import whales from "./Assets/whales2.mp4";
 
 function App() {
+  const [user] = useAuthState(auth);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <video src={whales} autoPlay loop muted />
+      {user ? (
+        <>
+          <Game />
+        </>
+      ) : (
+        <>
+          <Login />
+        </>
+      )}
     </div>
   );
 }

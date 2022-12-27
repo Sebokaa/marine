@@ -1,0 +1,70 @@
+.home {
+    margin-top: 50px;
+    color: white;
+}
+
+.welcome h1{
+    font-size: 150px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.welcome h2{
+    /* background-color: rgba(0, 0, 0, 0.616); */
+    /* font-family: 'Roboto Condensed', sans-serif; */
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 50px;
+    width: 85%;
+    margin-bottom: 50px;
+}
+
+.welcome .yes{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.buttons{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.buttons button{
+    background: rgba(17, 17, 17);
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px 0px 10px 10px;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.buttons button:hover {
+    padding-right: 10px;
+    opacity: 1;
+ }
+
+span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons .icon{
+    opacity: 0;
+    transition: all 0.3s;
+    margin: 0;
+    padding: 0;
+}
+.buttons button:hover .icon {
+    opacity: 1;
+ }
+
