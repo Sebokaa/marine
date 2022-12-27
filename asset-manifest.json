@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/marine/static/css/main.6778fb93.css",
+    "main.js": "/marine/static/js/main.03d1c919.js",
+    "static/media/whales2.mp4": "/marine/static/media/whales2.efea97841ef0783f5fdf.mp4",
+    "static/media/stroke.png": "/marine/static/media/stroke.5ac68dbc9859a82b1587.png",
+    "index.html": "/marine/index.html",
+    "main.6778fb93.css.map": "/marine/static/css/main.6778fb93.css.map",
+    "main.03d1c919.js.map": "/marine/static/js/main.03d1c919.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6778fb93.css",
+    "static/js/main.03d1c919.js"
+  ]
+}
